@@ -55,17 +55,17 @@ var getLineChart = () => {
   }
 
  function MyLineChart(prop) {
-   const [data, setData] = useState(null);
-   var onDropdownChange = (e) => {
-    this.setData(data);
-   }
+//    const [data, setData] = useState(null);
+//    var onDropdownChange = (e) => {
+//     this.setData(data);
+//    }
         return (
           
             <div>
               
                 {
                     <LineChart
-                        width={500}
+                        width={2000}
                         height={300}
                         data={prop.data}
                         margin={{

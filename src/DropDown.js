@@ -11,7 +11,7 @@ export const Dropdown = (props) => (
 
       
       {props.options.map((item, index) => (
-        <option key={index} value={item.RLOIid}>
+        <option key={index} value={item.notation}>
           {item.label}
         </option>
       ))}
